@@ -1,0 +1,166 @@
+*{
+	 margin: 0;
+	 padding: 0;
+	 transition: 1s;
+	
+}
+/* ОБЩИЙ КОНТЕЙНЕР */
+.container{
+	display: block;
+	margin: auto;
+	background-position:center center;
+	background:url('img/фон.jpg') no-repeat center center;
+	font-family: 'Lobster', cursive;
+	height: 100vh;
+	background-attachment:fixed;
+	background-size:cover;
+}
+
+/* ПЛАНЕТА ЗЕМЛЯ */
+
+.Home{
+	background: green;
+	display: block;
+	opacity: 1;
+	transition: 3s;
+	position: absolute;
+	border-radius: 100%;
+	width: 100px;
+	height: 100px;
+	
+	left: 44%;
+	top: 51.8%;
+	color: white;
+	text-align: center;
+	
+}
+.Home:hover{
+	display: block;
+	opacity: 1;
+	transition: 3s;
+}
+
+/* ПЛАНЕТА МАРС */
+
+.MyProgress{
+	width: 50px;
+	height: 50px;
+	opacity: 1;
+	background: red;
+	border-radius: 100%;
+	position: absolute;
+	left: 26.25%;
+	top: 37.1%;
+	font-size: 0.25em;
+	text-align: center;
+	color: white;	
+	transition: 3s;
+}
+.MyProgress p{
+	padding-top: 10px;
+}
+.MyProgress:hover{
+	opacity: 1;
+	transition: 3s;
+}
+
+/* ПЛАНЕТА МЕРКУРИЙ */
+.MyJob{
+	position: absolute;
+	background: #999;
+	width: 60px;
+	height: 60px;
+	opacity: 1;
+	border-radius: 100%;
+	font-size: 0.45em;
+	text-align: center;
+	transition: 3s;
+	color: white;
+	left: 61%;
+	top: 25.6%;
+}
+.MyJob p{
+	padding-top: 4px;
+}
+.MyJob:hover{
+	opacity: 1;
+	transition: 3s;
+}
+
+/* КОНТЕЙНЕР ЗЕМЛЯ */
+.container_Home{
+	color: white;
+	display: none;
+	background-position:center center;
+	background: url(IMG/земля.jpg);
+	font-family: 'Lobster', cursive;
+	height: 100vh;
+	background-attachment:fixed;
+	background-size:cover;
+}
+.container_Home h1, .container_Home h2, .container_Home h3{
+	font-size: 3em;
+	text-align: center;
+}
+.exit{
+	width: 70px;
+	height: 70px;
+	
+	
+}
+.exit img{
+	float: left;
+	border-radius: 100%;
+	
+}
+.exit p{
+	transition: 3s;
+	width: 70px;
+	height: 70px;
+	position: absolute;
+	padding-top: 20px;
+	padding-left: 10px;
+	opacity: 0;
+}
+.exit p:hover{
+	transition: 3s;
+	color: white;
+	opacity: 1;
+	float: left;
+}
+.time{
+	display: none;
+	width: 100vw;
+	height: 100vh;
+	background-position:center center;
+	background:url('img/Time.gif') no-repeat center center;
+	background-attachment:fixed;
+	background-size:cover;
+}
+
+/* КОНТЕЙНЕР ДОСТИЖЕНИЯ */
+
+.containerMyProgress{
+	color: white;
+	display: none;
+	background-position:center center;
+	background: url(IMG/Марс.jpg);
+	font-family: 'Lobster', cursive;
+	height: 100vh;
+	background-attachment:fixed;
+	background-size:cover;
+}
+
+
+/* КОНТЕЙНЕР РАБОТЫ */
+
+.containerMyJob{
+	color: white;
+	display: none;
+	background-position:center center;
+	background: url(IMG/Меркурий.jpg);
+	font-family: 'Lobster', cursive;
+	height: 100vh;
+	background-attachment:fixed;
+	background-size:cover;
+}
